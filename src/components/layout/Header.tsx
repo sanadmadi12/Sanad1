@@ -51,13 +51,8 @@ export function Header() {
     >
       <div className="container-narrow">
         <nav className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
-          <Link
-            to="/"
-            className="font-serif text-xl font-semibold text-foreground hover:text-primary transition-colors"
-          >
-            Portfolio
-          </Link>
+      
+          
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
