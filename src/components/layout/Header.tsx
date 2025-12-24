@@ -34,7 +34,7 @@ export function Header() {
     { path: '/experience', label: t('nav.experience') },
     { path: '/projects', label: t('nav.projects') },
     { path: '/volunteer', label: t('nav.volunteer') },
-    { path: '/publications', label: t('nav.publications') },
+    { path: '/materials', label: t('nav.publications')  },
     { path: '/contact', label: t('nav.contact') },
   ];
 

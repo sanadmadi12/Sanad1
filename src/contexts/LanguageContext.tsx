@@ -19,7 +19,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.experience': 'Experience',
     'nav.projects': 'Projects',
     'nav.volunteer': 'Leadership',
-    'nav.publications': 'Publications',
+    'nav.publications': 'Academic Materials',
     'nav.contact': 'Contact',
 
     // Hero
@@ -82,7 +82,7 @@ const translations: Record<Language, Record<string, string>> = {
     'volunteer.conferences': 'Conferences & Workshops',
 
     // Publications
-    'publications.title': 'Publications & Downloads',
+    'publications.title': 'Academic Materials & Downloads',
     'publications.cv': 'Curriculum Vitae',
     'publications.transcript': 'Academic Transcript',
     'publications.papers': 'Research Papers',
