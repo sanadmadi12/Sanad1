@@ -57,9 +57,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        navy: {
-          DEFAULT: "hsl(var(--navy))",
-          light: "hsl(var(--navy-light))",
+        Black: {
+          DEFAULT: "hsl(0 0% 0%)",
+          light: "hsl(0 0% 0%))",
         },
         charcoal: "hsl(var(--charcoal))",
         steel: "hsl(var(--steel))",
