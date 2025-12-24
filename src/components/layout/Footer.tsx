@@ -46,7 +46,7 @@ export function Footer() {
             </h4>
             <div className="flex items-center gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/sanad-madi-63101b2a9/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-primary hover:bg-accent rounded transition-colors"
@@ -55,7 +55,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/sanadmadi12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-muted-foreground hover:text-primary hover:bg-accent rounded transition-colors"
@@ -64,7 +64,7 @@ export function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:sanadmadi12@gmail.com"
                 className="p-2 text-muted-foreground hover:text-primary hover:bg-accent rounded transition-colors"
                 aria-label="Email"
               >
