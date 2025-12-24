@@ -24,8 +24,8 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     'hero.title': 'Mechanical Engineer',
-    'hero.subtitle': 'Research-Driven | Systems & Design',
-    'hero.summary': 'Dedicated to advancing engineering solutions through rigorous research, innovative design, and systematic problem-solving. Specializing in dynamics, materials science, and computational analysis.',
+    'hero.subtitle': 'Design · Research · Implementation',
+    'hero.summary': 'Engineering work grounded in design, research, and testing, driven by an understanding of systems through fundamentals and structure. Projects involve mechanical behavior, materials, and system-level considerations, progressing from investigation to execution.',
     'hero.downloadCV': 'Download CV',
     'hero.viewProjects': 'View Projects',
     'hero.contact': 'Contact',
