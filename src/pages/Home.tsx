@@ -20,7 +20,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             {/* Name */}
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-medium text-foreground mb-4 opacity-0 animate-fade-in-up">
-              Sanad
+              Sanad Madi
             </h1>
 
             {/* Title */}
