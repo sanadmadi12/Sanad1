@@ -74,49 +74,7 @@ export function Header() {
 
           {/* Language Switcher & Mobile Menu */}
           <div className="flex items-center gap-2">
-            {/* Language Dropdown */}
-            <div className="relative">
-              <button
-                onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-                className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded hover:bg-accent/50"
-              >
-                <span>{currentLang?.flag}</span>
-                <span className="hidden sm:inline">{currentLang?.label}</span>
-                <ChevronDown className={cn('w-4 h-4 transition-transform', isLangMenuOpen && 'rotate-180')} />
-              </button>
 
-              {isLangMenuOpen && (
-                <>
-                  <div
-                    className="fixed inset-0 z-10"
-                    onClick={() => setIsLangMenuOpen(false)}
-                  />
-                  <div className={cn(
-                    "absolute top-full mt-2 bg-card border border-border rounded-lg shadow-lg overflow-hidden z-20 min-w-[150px]",
-                    dir === 'rtl' ? 'left-0' : 'right-0'
-                  )}>
-                    {languages.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => {
-                          setLanguage(lang.code);
-                          setIsLangMenuOpen(false);
-                        }}
-                        className={cn(
-                          'w-full flex items-center gap-3 px-4 py-2.5 text-sm transition-colors',
-                          language === lang.code
-                            ? 'bg-accent text-primary font-medium'
-                            : 'hover:bg-accent/50 text-foreground'
-                        )}
-                      >
-                        <span>{lang.flag}</span>
-                        <span>{lang.label}</span>
-                      </button>
-                    ))}
-                  </div>
-                </>
-              )}
-            </div>
 
             {/* Mobile Menu Button */}
             <button
