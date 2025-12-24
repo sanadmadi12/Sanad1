@@ -139,30 +139,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container-narrow">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <p className="font-serif text-3xl lg:text-4xl font-medium">5+</p>
-              <p className="text-sm mt-1 opacity-80">Years Experience</p>
-            </div>
-            <div>
-              <p className="font-serif text-3xl lg:text-4xl font-medium">12</p>
-              <p className="text-sm mt-1 opacity-80">Publications</p>
-            </div>
-            <div>
-              <p className="font-serif text-3xl lg:text-4xl font-medium">20+</p>
-              <p className="text-sm mt-1 opacity-80">Projects</p>
-            </div>
-            <div>
-              <p className="font-serif text-3xl lg:text-4xl font-medium">3</p>
-              <p className="text-sm mt-1 opacity-80">Patents</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

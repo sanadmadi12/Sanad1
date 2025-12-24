@@ -12,9 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <Link to="/" className="font-serif text-xl font-semibold text-foreground">
-              Portfolio
-            </Link>
+      
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
               Mechanical Engineer | Research-Driven | Systems & Design
             </p>
@@ -32,7 +30,7 @@ export function Footer() {
               <Link to="/projects" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 {t('nav.projects')}
               </Link>
-              <Link to="/publications" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Link to="/materials" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 {t('nav.publications')}
               </Link>
               <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
