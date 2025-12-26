@@ -1,4 +1,3 @@
-import { Download, ExternalLink, FileText } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { cn } from '@/lib/utils';
@@ -95,42 +94,7 @@ export default function Research() {
                 </div>
               </div>
 
-              {/* Actions */}
-              <div className={cn(
-                "flex flex-wrap gap-3",
-                dir === 'rtl' && 'flex-row-reverse'
-              )}>
-                {research.hasPaper && (
-                  <a
-                    href={`/papers/research-${research.id}.pdf`}
-                    download
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded hover:bg-primary/90 transition-colors"
-                  >
-                    <Download className="w-4 h-4" />
-                    {t('research.downloadPaper')}
-                  </a>
-                )}
-                {research.hasPoster && (
-                  <a
-                    href={`/posters/research-${research.id}.pdf`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-foreground text-sm font-medium rounded hover:bg-secondary/80 transition-colors"
-                  >
-                    <FileText className="w-4 h-4" />
-                    {t('research.viewPoster')}
-                  </a>
-                )}
-                <a
-                  href={`https://doi.org/${research.doi}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 border border-border text-foreground text-sm font-medium rounded hover:bg-accent transition-colors"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  {t('research.doiLink')}
-                </a>
-              </div>
+              
             </article>
           ))}
         </div>
