@@ -91,7 +91,7 @@ const experienceData = [
     'Motorcycle Systems',
     'Technical Troubleshooting',
   ],
-  }
+  },
   {
   type: 'industry',
   role: 'Mechanical Technician Intern',
