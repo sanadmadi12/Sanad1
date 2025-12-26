@@ -31,7 +31,7 @@ const educationData = [
     period: '2020 – 2023',
     gpa: '41/45',
     honors: ['Valedictorian'],
-    thesis: null
+    thesis: null,
     coursework: [    ],
   },
 ];
