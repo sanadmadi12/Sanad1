@@ -8,46 +8,46 @@ const downloadsData = {
     name: 'Curriculum Vitae',
     description: 'Complete academic and professional CV',
     file: '/downloads/cv.pdf',
-    updated: 'December 2024',
+    updated: 'December 2025',
   },
   transcript: {
     name: 'Academic Transcript',
-    description: 'Official transcript from MIT',
+    description: 'Official transcript from NYU',
     file: '/downloads/transcript.pdf',
-    updated: 'May 2022',
+    updated: 'December 2025',
   },
-  papers: [
-    {
-      title: 'Dynamic Response Analysis of Composite Structures Under Multi-Axial Loading',
-      journal: 'Composite Structures',
-      year: '2022',
-      file: '/downloads/paper-1.pdf',
-    },
-    {
-      title: 'Optimization of Lattice Structures for Additive Manufacturing',
-      journal: 'Journal of Mechanical Design',
-      year: '2021',
-      file: '/downloads/paper-2.pdf',
-    },
-    {
-      title: 'Thermal Management of Electric Vehicle Battery Packs',
-      journal: 'Applied Energy',
-      year: '2020',
-      file: '/downloads/paper-3.pdf',
-    },
-  ],
-  posters: [
-    {
-      title: 'Multi-scale Modeling of Composite Materials',
-      event: 'ASME IMECE 2022',
-      file: '/downloads/poster-1.pdf',
-    },
-    {
-      title: 'Machine Learning for Structural Health Monitoring',
-      event: 'SEM Conference 2021',
-      file: '/downloads/poster-2.pdf',
-    },
-  ],
+  // papers: [
+  //   {
+  //     title: 'Dynamic Response Analysis of Composite Structures Under Multi-Axial Loading',
+  //     journal: 'Composite Structures',
+  //     year: '2022',
+  //     file: '/downloads/paper-1.pdf',
+  //   },
+  //   {
+  //     title: 'Optimization of Lattice Structures for Additive Manufacturing',
+  //     journal: 'Journal of Mechanical Design',
+  //     year: '2021',
+  //     file: '/downloads/paper-2.pdf',
+  //   },
+  //   {
+  //     title: 'Thermal Management of Electric Vehicle Battery Packs',
+  //     journal: 'Applied Energy',
+  //     year: '2020',
+  //     file: '/downloads/paper-3.pdf',
+  //   },
+  // ],
+  // posters: [
+  //   {
+  //     title: 'Multi-scale Modeling of Composite Materials',
+  //     event: 'ASME IMECE 2022',
+  //     file: '/downloads/poster-1.pdf',
+  //   },
+  //   {
+  //     title: 'Machine Learning for Structural Health Monitoring',
+  //     event: 'SEM Conference 2021',
+  //     file: '/downloads/poster-2.pdf',
+  //   },
+  // ],
   certificates: [
     {
       name: 'Certified SolidWorks Professional (CSWP)',
