@@ -12,64 +12,34 @@ const volunteerData = {
       description: 'Organized and led a community charity initiative that raised funds from individuals and sponsors to support people in need. Coordinated dinner events for orphans, distributed essential supply boxes to underprivileged families, and helped cover debts for individuals facing financial hardship.',
     },
     {
-      name: 'Tau Beta Pi Engineering Honor Society',
-      role: 'Active Member',
-      period: '2019 - Present',
-      description: 'Participated in community outreach programs and engineering tutoring services.',
+      name: 'Community Outreach Office',
+      role: 'Volunteer',
+      period: '2023 - Present',
+      description: 'Participated in community outreach initiatives organized by NYU Abu Dhabi, including environmental volunteering such as mangrove planting and other service activities supporting local community engagement and sustainability efforts.',
     },
     {
-      name: 'Society of Automotive Engineers (SAE)',
-      role: 'Formula SAE Team Lead - Powertrain',
-      period: '2018 - 2020',
-      description: 'Managed powertrain development for competition vehicle. Led team of 8 engineers.',
+      name: 'Sharek Camp',
+      role: 'Volunteer Facilitator',
+      period: 'Sep 2022 – Jan 2023',
+      description: 'Facilitated day-long activities and games for orphans of different age groups, coordinated recreational outings, and supported daily camp logistics including meal service..',
     },
   ],
   mentoring: [
     {
-      title: 'Undergraduate Research Mentor',
-      organization: 'MIT Department of Mechanical Engineering',
-      period: '2021 - 2022',
-      description: 'Mentored 3 undergraduate students on research projects in computational mechanics.',
+      title: 'Weyak Program',
+      organization: 'First-Year Experience Committee, NYU Abu Dhabi',
+      period: 'Aug 2024 – Dec 2024',
+      description: 'Mentored first-year students through academic, social, and personal guidance, and supported orientation activities and community-building discussions.',
     },
     {
-      title: 'STEM Outreach Volunteer',
-      organization: 'Cambridge Science Festival',
-      period: '2020 - 2022',
-      description: 'Developed and delivered hands-on engineering demonstrations for K-12 students.',
+      title: 'High School Tutor',
+      organization: 'Mentora',
+      period: '2023 – Present',
+      description: 'Tutored high school students (grades 8–12) in mathematics, chemistry, physics, and biology, providing academic support across multiple STEM subjects.',
     },
-    {
-      title: 'Engineering Tutor',
-      organization: 'University of Michigan Engineering Learning Center',
-      period: '2018 - 2020',
-      description: 'Provided tutoring in statics, dynamics, and thermodynamics to undergraduate students.',
-    },
+    
   ],
-  conferences: [
-    {
-      name: 'ASME International Mechanical Engineering Congress (IMECE)',
-      location: 'Salt Lake City, UT',
-      year: '2022',
-      role: 'Paper Presentation',
-    },
-    {
-      name: 'SEM Annual Conference',
-      location: 'Virtual',
-      year: '2021',
-      role: 'Poster Presentation',
-    },
-    {
-      name: 'SAE World Congress',
-      location: 'Detroit, MI',
-      year: '2020',
-      role: 'Student Competition',
-    },
-    {
-      name: 'ASME Student Design Competition',
-      location: 'Pittsburgh, PA',
-      year: '2019',
-      role: 'Team Lead',
-    },
-  ],
+  
 };
 
 export default function Volunteer() {
@@ -80,8 +50,7 @@ export default function Volunteer() {
       <div className="container-narrow">
         <SectionHeader 
           title={t('volunteer.title')}
-          subtitle="Professional involvement, mentoring, and community engagement"
-        />
+                  />
 
         <div className="max-w-4xl mx-auto space-y-16">
           {/* Volunteering & Charity */}
