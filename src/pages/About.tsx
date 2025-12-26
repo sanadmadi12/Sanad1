@@ -96,7 +96,7 @@ export default function About() {
                   CAD & CAE Software
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['SolidWorks', 'CATIA', 'AutoCAD', 'ANSYS', 'Abaqus', 'COMSOL'].map((skill) => (
+                  {['SolidWorks', 'AutoCAD', 'ANSYS', ].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-secondary text-foreground text-sm rounded">
                       {skill}
                     </span>
@@ -107,10 +107,10 @@ export default function About() {
               {/* Programming */}
               <div>
                 <h4 className="font-sans text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-                  Programming & Analysis
+                  Programming & Simulation
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['MATLAB', 'Python', 'C++', 'R', 'Julia', 'Simulink'].map((skill) => (
+                  {['MATLAB', 'Python', 'C++', 'MuJoCo', 'LTspice', 'Simulink', 'PVsyst'].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-secondary text-foreground text-sm rounded">
                       {skill}
                     </span>
@@ -124,7 +124,7 @@ export default function About() {
                   Manufacturing & Prototyping
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['CNC Machining', '3D Printing', 'GD&T', 'Metrology', 'Lean Manufacturing'].map((skill) => (
+                  {['3D Printing', 'GD&T', 'Material Processing & Handling', 'Debinding & Sintering','Mechanical Testing' ].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-secondary text-foreground text-sm rounded">
                       {skill}
                     </span>
@@ -138,7 +138,7 @@ export default function About() {
                   Analysis Methods
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['FEA', 'CFD', 'Modal Analysis', 'Fatigue Analysis', 'Optimization'].map((skill) => (
+                  {['FEA', 'Modal Analysis', 'System-Level Analysis', 'Optimization', 'Cobot Programming'].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-secondary text-foreground text-sm rounded">
                       {skill}
                     </span>
