@@ -26,13 +26,13 @@ export default function About() {
             dir === 'rtl' && 'lg:flex-row-reverse'
           )}>
             {/* Photo Placeholder */}
-            <div className="w-48 h-48 lg:w-64 lg:h-64 mx-auto rounded-lg overflow-hidden">
-              <img
-                src="/sanad.jpg"
-                alt="Sanad Madi"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div className="flex-shrink-0">
+              <div className="w-48 h-48 lg:w-64 lg:h-64 mx-auto rounded-lg overflow-hidden">
+                <img
+                  src="/sanad.jpg"
+                  alt="Sanad Madi"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
