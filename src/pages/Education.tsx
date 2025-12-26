@@ -6,42 +6,33 @@ import { cn } from '@/lib/utils';
 
 const educationData = [
   {
-    degree: 'M.Sc. Mechanical Engineering',
-    institution: 'Massachusetts Institute of Technology',
-    location: 'Cambridge, MA, USA',
-    period: '2020 - 2022',
-    gpa: '3.92/4.0',
-    honors: ['Magna Cum Laude', 'Dean\'s List'],
-    thesis: 'Dynamic Analysis of Composite Structures Under Multi-axial Loading Conditions',
+    degree: 'B.S. Mechanical Engineering',
+    institution: 'New York University Abu Dhabi',
+    location: 'Abu Dhabi, UAE',
+    period: '2023 – 2027',
+    gpa: null,
+    honors: [],
+    thesis: 'Focus: Dynamical systems, mechanics, and robotics.',
     coursework: [
-      'Advanced Dynamics',
-      'Finite Element Methods',
-      'Computational Mechanics',
-      'Nonlinear Systems',
-      'Continuum Mechanics',
-      'Materials Science',
-      'Heat Transfer',
+      'Modelling and Analysis of Dynamical Systems',
+      'Robotic Manipulation and Locomotion',
+      'Advanced Solid Mechanics',
+      'Statics & Dynamics',
+      'Structural Systems',
       'Fluid Mechanics',
+      'Heat Transfer',
+      'Thermodynamics'
     ],
   },
   {
-    degree: 'B.Sc. Mechanical Engineering',
-    institution: 'University of Michigan',
-    location: 'Ann Arbor, MI, USA',
-    period: '2016 - 2020',
-    gpa: '3.85/4.0',
-    honors: ['Summa Cum Laude', 'Engineering Honors Program', 'Tau Beta Pi'],
-    thesis: 'Design and Optimization of a Micro-Scale Heat Exchanger',
-    coursework: [
-      'Statics & Dynamics',
-      'Thermodynamics',
-      'Machine Design',
-      'Control Systems',
-      'Manufacturing Processes',
-      'Mechatronics',
-      'Engineering Mathematics',
-      'Materials Engineering',
-    ],
+    degree: 'International Baccalaureate (IB)',
+    institution: 'Amman National School',
+    location: 'Amman, Jordan',
+    period: '2020 – 2023',
+    gpa: '41/45',
+    honors: ['Valedictorian'],
+    thesis: null
+    coursework: [    ],
   },
 ];
 
@@ -101,7 +92,7 @@ export default function Education() {
               {/* Thesis */}
               <div className="mb-6 p-4 bg-secondary/50 rounded-lg">
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
-                  Thesis
+                  Focus
                 </p>
                 <p className="text-foreground italic">"{edu.thesis}"</p>
               </div>
