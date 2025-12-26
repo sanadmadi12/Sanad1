@@ -6,10 +6,10 @@ import { cn } from '@/lib/utils';
 const volunteerData = {
   organizations: [
     {
-      name: 'American Society of Mechanical Engineers (ASME)',
-      role: 'Student Section President',
-      period: '2019 - 2020',
-      description: 'Led student chapter with 150+ members. Organized technical workshops, industry visits, and networking events.',
+      name: 'Watenyeh Lal Kheer Charity Initiative',
+      role: 'Organizer & Developer',
+      period: 'Jan 2022 – Jun 2022',
+      description: 'Organized and led a community charity initiative that raised funds from individuals and sponsors to support people in need. Coordinated dinner events for orphans, distributed essential supply boxes to underprivileged families, and helped cover debts for individuals facing financial hardship.',
     },
     {
       name: 'Tau Beta Pi Engineering Honor Society',
