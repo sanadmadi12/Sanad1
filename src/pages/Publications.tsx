@@ -108,7 +108,6 @@ export default function Publications() {
       <div className="container-narrow">
         <SectionHeader 
           title={t('publications.title')}
-          subtitle="Access CV, research papers, posters, and certificates"
         />
 
         <div className="max-w-4xl mx-auto space-y-12">

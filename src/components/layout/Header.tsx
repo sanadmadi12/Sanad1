@@ -49,8 +49,8 @@ export function Header() {
           : 'bg-transparent'
       )}
     >
-      <div className="container-narrow">
-        <nav className="flex items-center justify-between h-16 lg:h-20">
+      <div className="container-narrow mx-auto">
+        <nav className="flex items-center justify-center h-16 lg:h-20">
       
           
 
