@@ -7,14 +7,14 @@ import { cn } from '@/lib/utils';
 const projectsData = [
   {
     id: 1,
-    title: 'Autonomous Mobile Robot Platform',
-    category: 'Robotics',
+    title: 'Rankine Cycle Simulator (XSteam)',
+    category: 'Thermodynamics',
     thumbnail: null,
-    problem: 'Design a modular mobile robot platform capable of autonomous navigation in unstructured environments for research applications.',
-    approach: 'Integrated ROS-based navigation stack with custom-designed chassis featuring modular sensor mounts. Implemented SLAM algorithms for mapping and localization.',
-    results: 'Successfully deployed platform for indoor navigation with 95% path completion rate. Modular design allows for rapid reconfiguration.',
-    tools: ['SolidWorks', 'ROS', 'Python', 'Arduino', 'LIDAR'],
-    github: 'https://github.com/example/robot-platform',
+    problem: 'Build a MATLAB tool that simulates Rankine-cycle power plants using steam tables to compare ideal, reheat, and regenerative configurations.',
+    approach: 'Implemented an interactive MATLAB workflow that calls XSteam properties to compute state points, turbine/pump work, heat transfer, and cycle efficiency across multiple cycle types.',
+    results: 'Enabled quick comparison between Ideal Rankine, Reheat Rankine, and Regenerative Rankine cycles with consistent state-property calculations and repeatable outputs for analysis.',
+    tools: ['MATLAB', 'XSteam', 'Thermodynamics', 'Energy Systems'],
+    github: 'https://github.com/sanadmadi12/Rankine-Cycle-Simulator',
   },
   {
     id: 2,
