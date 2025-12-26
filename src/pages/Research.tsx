@@ -20,7 +20,7 @@ const researchData = [
       'This research focuses on the development and characterization of sustainable metallic composites using advanced 3D printing methods. The work involves preparing green metal samples, conducting mechanical testing, and studying debinding and sintering processes to evaluate and improve the mechanical performance and quality of additively manufactured metal components.',
     institution: 'New York University Abu Dhabi',
     lab: 'Structural 3D Printing Lab',
-    supervisor: 'NYUAD Structural 3D Printing Lab Team',
+    supervisor: 'Prof. Mohamed Moustafa',
     year: 'Jun 2025 – Oct 2025',
   },
   {
@@ -30,7 +30,7 @@ const researchData = [
       'This research explores sustainable approaches to potable water production through the development of desalination membranes integrated with thermoresponsive crystals synthesized from tetrabromobenzene. The work involves material preparation, nanoscale mechanical testing, and experimental evaluation of membrane–crystal systems to assess their mechanical behavior and suitability for water purification applications.',
     institution: 'New York University Abu Dhabi',
     lab: 'Center for Smart Engineering Materials (CSEM)',
-    supervisor: 'Dr. Panče Naumov',
+    supervisor: 'Prof. Panče Naumov',
     year: 'Oct 2024 – Jun 2025',
   },
   {
@@ -40,7 +40,7 @@ const researchData = [
       'This research focuses on the mechanical testing and classification of photomechanical crystals based on their actuation behavior and mechanical response. The work involves experimental measurement of force, strain, stress, and elastic modulus, along with comparative analysis to position crystal performance relative to existing actuation materials.',
     institution: 'New York University Abu Dhabi',
     lab: 'Center for Smart Engineering Materials (CSEM)',
-    supervisor: 'Dr. Panče Naumov',
+    supervisor: 'Prof. Panče Naumov',
     year: 'Oct 2024 – Jun 2025',
   },
 ];
