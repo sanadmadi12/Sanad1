@@ -39,9 +39,9 @@ const translations: Record<Language, Record<string, string>> = {
     'about.dynamics': 'Dynamics & Vibrations',
     'about.materials': 'Materials Science',
     'about.robotics': 'Robotics & Automation',
-    'about.thermoFluids': 'Thermo-Fluids',
+    //'about.thermoFluids': 'Thermo-Fluids',
     'about.optimization': 'Design Optimization',
-    'about.cae': 'CAE & Simulation',
+    //'about.cae': 'CAE & Simulation',
 
     // Education
     'education.title': 'Education',
