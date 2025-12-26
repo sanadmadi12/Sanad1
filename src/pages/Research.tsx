@@ -50,7 +50,6 @@ export default function Research() {
       <div className="container-narrow">
         <SectionHeader 
           title={t('research.title')} 
-          subtitle="Peer-reviewed publications and ongoing research initiatives"
         />
 
         <div className="max-w-4xl mx-auto space-y-8">
