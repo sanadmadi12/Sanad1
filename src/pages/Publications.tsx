@@ -138,7 +138,7 @@ export default function Publications() {
                       Updated: {downloadsData.cv.updated}
                     </p>
                     <a
-                      href="/downloads/cv.pdf"
+                      href="/cv.pdf"
                       download
                       className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded hover:bg-primary/90 transition-colors"
                     >
