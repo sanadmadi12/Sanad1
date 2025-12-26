@@ -32,7 +32,7 @@ const educationData = [
     gpa: '41/45',
     honors: ['Valedictorian'],
     thesis: null,
-    coursework: [    ],
+    coursework: [],
   },
 ];
 
@@ -92,14 +92,17 @@ export default function Education() {
               )}
 
               {/* Thesis */}
+              {edu.thesis && (
               <div className="mb-6 p-4 bg-secondary/50 rounded-lg">
                 <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-2">
                   Focus
                 </p>
                 <p className="text-foreground italic">"{edu.thesis}"</p>
               </div>
+              )}
 
               {/* Coursework */}
+              {edu.coursework && edu.coursework.length > 0 && (
               <div>
                 <button
                   onClick={() => setExpandedIndex(expandedIndex === index ? null : index)}
@@ -126,6 +129,7 @@ export default function Education() {
                   </div>
                 )}
               </div>
+              )}
             </div>
           ))}
 
