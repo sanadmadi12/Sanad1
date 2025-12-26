@@ -179,7 +179,9 @@ export default function Publications() {
             </div>
           </section>
 
+          
           {/* Research Papers */}
+          {/*
           <section>
             <h3 className="font-serif text-xl font-medium text-foreground mb-6">
               {t('publications.papers')}
@@ -198,8 +200,10 @@ export default function Publications() {
               ))}
             </div>
           </section>
+          */}
 
           {/* Posters */}
+          {/*
           <section>
             <h3 className="font-serif text-xl font-medium text-foreground mb-6">
               {t('publications.posters')}
@@ -218,6 +222,7 @@ export default function Publications() {
               ))}
             </div>
           </section>
+          */}
 
           {/* Certificates */}
           <section>
