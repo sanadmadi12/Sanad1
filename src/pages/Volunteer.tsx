@@ -84,7 +84,7 @@ export default function Volunteer() {
         />
 
         <div className="max-w-4xl mx-auto space-y-16">
-          {/* Professional Organizations */}
+          {/* Volunteering & Charity */}
           <section>
             <div className={cn("flex items-center gap-3 mb-8", dir === 'rtl' && 'flex-row-reverse')}>
               <div className="p-2 bg-accent rounded-lg">
@@ -139,32 +139,6 @@ export default function Volunteer() {
                     <span className="text-sm text-muted-foreground whitespace-nowrap">{item.period}</span>
                   </div>
                   <p className="text-muted-foreground text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          {/* Conferences & Workshops */}
-          <section>
-            <div className={cn("flex items-center gap-3 mb-8", dir === 'rtl' && 'flex-row-reverse')}>
-              <div className="p-2 bg-accent rounded-lg">
-                <Calendar className="w-5 h-5 text-primary" />
-              </div>
-              <h3 className="font-serif text-2xl font-medium text-foreground">
-                {t('volunteer.conferences')}
-              </h3>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {volunteerData.conferences.map((conf, index) => (
-                <div key={index} className="card-academic">
-                  <h4 className="font-medium text-foreground mb-1">{conf.name}</h4>
-                  <p className="text-sm text-muted-foreground mb-2">
-                    {conf.location} • {conf.year}
-                  </p>
-                  <span className="inline-block px-2 py-0.5 bg-accent text-accent-foreground text-xs rounded">
-                    {conf.role}
-                  </span>
                 </div>
               ))}
             </div>
