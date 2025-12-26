@@ -44,7 +44,6 @@ export default function Contact() {
       <div className="container-narrow">
         <SectionHeader 
           title={t('contact.title')}
-          subtitle="Let's discuss opportunities and collaborations"
         />
 
         <div className="max-w-5xl mx-auto">
@@ -173,10 +172,10 @@ export default function Contact() {
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">{t('contact.email')}</p>
                       <a 
-                        href="mailto:john.anderson@email.com"
+                        href="mailto:sanadmadi12@gmail.com"
                         className="text-foreground hover:text-primary transition-colors"
                       >
-                        john.anderson@email.com
+                        sanadmadi12@gmail.com
                       </a>
                     </div>
                   </div>
@@ -188,7 +187,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-medium text-muted-foreground">{t('contact.location')}</p>
-                      <p className="text-foreground">Palo Alto, California, USA</p>
+                      <p className="text-foreground">New York City, New York, USA</p>
                     </div>
                   </div>
 
@@ -199,7 +198,7 @@ export default function Contact() {
                     </p>
                     <div className="flex items-center gap-3">
                       <a
-                        href="https://linkedin.com/in/example"
+                        href="www.linkedin.com/in/sanad-madi-63101b2a9"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 px-4 py-2.5 bg-secondary text-foreground rounded hover:bg-secondary/80 transition-colors"
@@ -208,7 +207,7 @@ export default function Contact() {
                         <span className="text-sm font-medium">LinkedIn</span>
                       </a>
                       <a
-                        href="https://github.com/example"
+                        href="https://github.com/sanadmadi12"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 px-4 py-2.5 bg-secondary text-foreground rounded hover:bg-secondary/80 transition-colors"
