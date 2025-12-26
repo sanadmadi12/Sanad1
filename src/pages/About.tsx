@@ -26,13 +26,13 @@ export default function About() {
             dir === 'rtl' && 'lg:flex-row-reverse'
           )}>
             {/* Photo Placeholder */}
-            <div className="flex-shrink-0">
-              <div className="w-48 h-48 lg:w-64 lg:h-64 mx-auto bg-secondary rounded-lg overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  <svg className="w-24 h-24 opacity-30" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg>
-                </div>
+            <div className="w-48 h-48 lg:w-64 lg:h-64 mx-auto rounded-lg overflow-hidden">
+              <img
+                src="/sanad.jpg"
+                alt="Sanad Madi"
+                className="w-full h-full object-cover"
+              />
+            </div>
               </div>
             </div>
 
@@ -43,10 +43,10 @@ export default function About() {
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I am a Mechanical Engineer with a strong foundation in theoretical mechanics and applied computational methods. My academic journey has taken me through rigorous training in fundamental engineering sciences, advanced mathematics, and state-of-the-art simulation technologies.
+                  I am A mechanical engineering student at New York University, graduating in May 2027, with a strong foundation in engineering fundamentals, system behavior, and structured problem-solving. Academic training across mechanics, materials, design, and energy systems, combined with exposure to research and industrial environments, has shaped an approach focused on understanding how systems function and how engineering decisions translate into real-world performance.
                 </p>
                 <p>
-                  With experience spanning both academic research and industrial applications, I bring a unique perspective that bridges theoretical understanding with practical implementation. My work focuses on developing efficient, reliable, and innovative engineering solutions.
+                  Alongside technical development, experience in collaborative research, coursework, and applied projects has strengthened leadership, teamwork, and communication skills. Work is approached with discipline and clarity, balancing independent thinking with effective collaboration, and guided by the goal of delivering engineering solutions that are robust, well-reasoned, and effective in practice.
                 </p>
               </div>
             </div>

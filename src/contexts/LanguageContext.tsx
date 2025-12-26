@@ -34,7 +34,7 @@ const translations: Record<Language, Record<string, string>> = {
     'about.title': 'About',
     'about.background': 'Academic Background',
     'about.philosophy': 'Engineering Philosophy',
-    'about.philosophyText': 'I believe in the synergy of theoretical rigor and practical application. My approach combines fundamental principles with modern computational tools to develop solutions that are both innovative and manufacturable.',
+    'about.philosophyText': 'I believe engineering begins with understanding. Before designing or optimizing, priority is given to identifying how a system behaves, what governs it, and where structure and constraints matter. Decisions are guided by fundamentals, careful reasoning, and an appreciation for how ideas translate into physical reality.',
     'about.researchAreas': 'Research Focus Areas',
     'about.dynamics': 'Dynamics & Vibrations',
     'about.materials': 'Materials Science',
