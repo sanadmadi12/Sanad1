@@ -46,7 +46,7 @@ export function Header() {
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
         isScrolled
           ? 'bg-background/80 backdrop-blur-md shadow-sm border-b border-border'
-          : 'bg-transparent'
+          : 'bg-[hsl(0_0%_82%)]'
       )}
     >
       <div className="container-narrow mx-auto">
