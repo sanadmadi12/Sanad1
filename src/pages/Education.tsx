@@ -10,7 +10,7 @@ const educationData = [
     institution: 'New York University Abu Dhabi',
     location: 'Abu Dhabi, UAE',
     period: '2023 – 2027',
-    gpa: null,
+    gpa: '3.915',
     honors: [],
     thesis: 'Focus: Dynamical systems, mechanics, and robotics.',
     coursework: [
@@ -72,6 +72,7 @@ export default function Education() {
               </div>
 
               {/* Honors */}
+              {edu.honors.length > 0 && (
               <div className="mb-6">
                 <h4 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3">
                   {t('education.honors')}
@@ -88,6 +89,7 @@ export default function Education() {
                   ))}
                 </div>
               </div>
+              )}
 
               {/* Thesis */}
               <div className="mb-6 p-4 bg-secondary/50 rounded-lg">
