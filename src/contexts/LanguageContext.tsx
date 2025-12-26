@@ -77,7 +77,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Volunteer
     'volunteer.title': 'Volunteer Work & Leadership',
-    'volunteer.organizations': 'Professional Organizations',
+    'volunteer.organizations': 'Volunteering & Charity',
     'volunteer.mentoring': 'Mentoring & Outreach',
     'volunteer.conferences': 'Conferences & Workshops',
 
