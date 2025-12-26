@@ -6,9 +6,9 @@ const researchAreas = [
   { key: 'dynamics', icon: '⚙️' },
   { key: 'materials', icon: '🔬' },
   { key: 'robotics', icon: '🤖' },
-  { key: 'thermoFluids', icon: '🌡️' },
+  //{ key: 'thermoFluids', icon: '🌡️' },
   { key: 'optimization', icon: '📐' },
-  { key: 'cae', icon: '💻' },
+  //{ key: 'cae', icon: '💻' },
 ];
 
 export default function About() {
