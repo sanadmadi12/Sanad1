@@ -120,7 +120,7 @@ export default function Experience() {
       <div className="container-narrow">
         <SectionHeader 
           title={t('experience.title')}
-          subtitle="Industry and academic experience in mechanical engineering"
+          
         />
 
         <div className="max-w-4xl mx-auto">
