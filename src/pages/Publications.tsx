@@ -52,20 +52,14 @@ const downloadsData = {
     {
       name: 'Certified SolidWorks Professional (CSWP)',
       issuer: 'Dassault Systèmes',
-      year: '2021',
-      file: '/downloads/cert-cswp.pdf',
+      year: '2025',
+      file: '/CSWP.pdf',
     },
     {
-      name: 'ANSYS Certified Professional',
-      issuer: 'ANSYS, Inc.',
-      year: '2020',
-      file: '/downloads/cert-ansys.pdf',
-    },
-    {
-      name: 'Six Sigma Green Belt',
-      issuer: 'ASQ',
-      year: '2019',
-      file: '/downloads/cert-sixsigma.pdf',
+      name: 'Certified SolidWorks Associate (CSWA)',
+      issuer: 'Dassault Systèmes',
+      year: '2025',
+      file: '/CSWA.pdf',
     },
   ],
 };
@@ -166,7 +160,7 @@ export default function Publications() {
                       Updated: {downloadsData.transcript.updated}
                     </p>
                     <a
-                      href={downloadsData.transcript.file}
+                      href="/transcript.pdf"
                       download
                       className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded hover:bg-primary/90 transition-colors"
                     >
