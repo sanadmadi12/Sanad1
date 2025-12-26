@@ -7,7 +7,7 @@ const downloadsData = {
   cv: {
     name: 'Curriculum Vitae',
     description: 'Complete academic and professional CV',
-    file: '/downloads/cv.pdf',
+    file: '/public/cv.pdf',
     updated: 'December 2025',
   },
   transcript: {
