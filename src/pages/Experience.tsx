@@ -5,18 +5,23 @@ import { cn } from '@/lib/utils';
 
 const experienceData = [
   {
-    type: 'industry',
-    role: 'Mechanical Design Engineer',
-    company: 'Tesla, Inc.',
-    location: 'Palo Alto, CA',
-    period: 'Jun 2022 - Present',
+    type: 'academic',
+    role: 'Robot Operations & Lab Intern',
+    company: 'New York University Abu Dhabi',
+    location: 'Abu Dhabi, UAE',
+    period: 'Sep 2025 – Present',
     responsibilities: [
-      'Lead design and development of thermal management systems for battery packs',
-      'Conduct FEA simulations for structural integrity and fatigue life analysis',
-      'Collaborate with cross-functional teams on DFM and DFA optimization',
-      'Implement design improvements resulting in 15% weight reduction',
+      'Program and operate Universal Robots (UR series) to execute precise, synchronized motion alongside human performers in dance, choreography, and musical projects.',
+      'Develop motion sequences and control logic through calibration and synchronization testing to improve system accuracy and responsiveness.',
+      'Design and build a miniature encoder-based robotic system to capture and map manual motion data for translation into large-scale robotic choreography.',
+      'Integrate Arduino-based hardware with encoders, breadboards, and wiring assemblies for motion sensing and system prototyping.',
     ],
-    tools: ['CATIA', 'ANSYS', 'MATLAB', 'Python', 'Teamcenter'],
+    tools: ['Universal Robots (UR Series)',
+    'Python',
+    'Arduino',
+    'Encoders',
+    'Breadboards & Electronic Prototyping',
+    'Motion Planning & Calibration'],
   },
   {
     type: 'academic',
