@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Rankine Cycle Simulator (XSteam)',
-    category: 'Thermodynamics',
+    category: 'Energy Systems',
     thumbnail: null,
     problem: 'Build a MATLAB tool that simulates Rankine-cycle power plants using steam tables to compare ideal, reheat, and regenerative configurations.',
     approach: 'Implemented an interactive MATLAB workflow that calls XSteam properties to compute state points, turbine/pump work, heat transfer, and cycle efficiency across multiple cycle types.',
@@ -18,14 +18,17 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Wind Turbine Blade Optimization',
-    category: 'Energy Systems',
+    title: 'Shoulder Joint Housing for a 6-DOF Robot (Bearing + Encoder Mount)',
+    category: 'Mechanical Design',
     thumbnail: null,
-    problem: 'Optimize wind turbine blade geometry for maximum energy capture while minimizing structural weight and manufacturing cost.',
-    approach: 'Applied genetic algorithm-based optimization coupled with CFD simulations. Parametric blade model allowed rapid design iteration.',
-    results: 'Achieved 12% improvement in power coefficient with 8% weight reduction compared to baseline design.',
-    tools: ['MATLAB', 'ANSYS Fluent', 'Python', 'CATIA'],
-    github: 'https://github.com/example/turbine-opt',
+    problem: 'Design a compact shoulder-joint housing for a 6-DOF robotic arm that securely integrates a 65×50×7 bearing and an AS5600 encoder mount, supports repeatable assembly, and uses M2.5 fasteners while maintaining manufacturability.',
+    approach: 'Designed the housing in SolidWorks around the bearing and encoder geometry, then evaluated the design using SolidWorks Simulation and refined it using optimization tools to improve structural performance and fit.',
+    results: 'Produced an optimized shoulder-joint housing with validated clearances for the bearing and encoder mount and improved mechanical robustness for assembly and integration.',
+    tools: ['SolidWorks',
+    'SolidWorks Simulation',
+    'Design Optimization',
+    'Mechanical Assembly Design'],
+    github: 'https://github.com/sanadmadi12/6dof-robot-shoulder-joint-housing',
   },
   {
     id: 3,
@@ -82,7 +85,6 @@ export default function Projects() {
       <div className="container-narrow">
         <SectionHeader 
           title={t('projects.title')}
-          subtitle="Engineering projects showcasing design, analysis, and implementation skills"
         />
 
         {/* Project Grid */}
