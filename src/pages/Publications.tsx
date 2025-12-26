@@ -7,7 +7,7 @@ const downloadsData = {
   cv: {
     name: 'Curriculum Vitae',
     description: 'Complete academic and professional CV',
-    file: '/public/cv.pdf',
+    file: '/downloads/cv.pdf',
     updated: 'December 2025',
   },
   transcript: {
@@ -138,7 +138,7 @@ export default function Publications() {
                       Updated: {downloadsData.cv.updated}
                     </p>
                     <a
-                      href={downloadsData.cv.file}
+                      href="/downloads/cv.pdf"
                       download
                       className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded hover:bg-primary/90 transition-colors"
                     >
