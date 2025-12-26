@@ -16,7 +16,7 @@ const downloadsData = {
     file: '/downloads/transcript.pdf',
     updated: 'December 2025',
   },
-  // papers: [
+  papers: [
   //   {
   //     title: 'Dynamic Response Analysis of Composite Structures Under Multi-Axial Loading',
   //     journal: 'Composite Structures',
@@ -35,8 +35,8 @@ const downloadsData = {
   //     year: '2020',
   //     file: '/downloads/paper-3.pdf',
   //   },
-  // ],
-  // posters: [
+     ],
+   posters: [
   //   {
   //     title: 'Multi-scale Modeling of Composite Materials',
   //     event: 'ASME IMECE 2022',
@@ -47,7 +47,7 @@ const downloadsData = {
   //     event: 'SEM Conference 2021',
   //     file: '/downloads/poster-2.pdf',
   //   },
-  // ],
+    ],
   certificates: [
     {
       name: 'Certified SolidWorks Professional (CSWP)',
