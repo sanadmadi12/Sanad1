@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: 'Rankine Cycle Simulator (XSteam)',
     category: 'Energy Systems',
-    thumbnail: 'rankcs.png',
+    thumbnail: 'projects/rankcs.png',
     problem: 'Build a MATLAB tool that simulates Rankine-cycle power plants using steam tables to compare ideal, reheat, and regenerative configurations.',
     approach: 'Implemented an interactive MATLAB workflow that calls XSteam properties to compute state points, turbine/pump work, heat transfer, and cycle efficiency across multiple cycle types.',
     results: 'Enabled quick comparison between Ideal Rankine, Reheat Rankine, and Regenerative Rankine cycles with consistent state-property calculations and repeatable outputs for analysis.',
@@ -118,13 +118,23 @@ export default function Projects() {
               )}
             >
               {/* Thumbnail Placeholder */}
+              {/* Thumbnail */}
               <div className="aspect-video bg-secondary rounded-lg mb-4 overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                  <svg className="w-12 h-12 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                  </svg>
-                </div>
+                {project.thumbnail ? (
+                  <img
+                    src={project.thumbnail}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-muted-foreground">
+                    <svg className="w-12 h-12 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                )}
               </div>
+
 
               {/* Category */}
               <span className="text-xs font-semibold text-primary uppercase tracking-wider">
