@@ -54,7 +54,6 @@ const projectsData = [
     results: 'Successfully enabled interactive editing and redeployment of complex choreographic motion on the UR20, achieving reliable execution during a public demonstration at GITEX Dubai. Maintained stable robot operation throughout rehearsals and live performance, ensuring accurate timing, smooth motion execution, and uninterrupted choreography.',
     tools:   ['URScript',
      'URP / URPX File Handling',
-      'Python',
       'Robotics System Integration',
       'Web-Based Software Development',
       'Motion Waypoints & Node Graphs'],
