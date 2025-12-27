@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: 'Rankine Cycle Simulator (XSteam)',
     category: 'Energy Systems',
-    thumbnail: 'projects/rankcs.png',
+    thumbnail: 'rankcs.png',
     problem: 'Build a MATLAB tool that simulates Rankine-cycle power plants using steam tables to compare ideal, reheat, and regenerative configurations.',
     approach: 'Implemented an interactive MATLAB workflow that calls XSteam properties to compute state points, turbine/pump work, heat transfer, and cycle efficiency across multiple cycle types.',
     results: 'Enabled quick comparison between Ideal Rankine, Reheat Rankine, and Regenerative Rankine cycles with consistent state-property calculations and repeatable outputs for analysis.',
